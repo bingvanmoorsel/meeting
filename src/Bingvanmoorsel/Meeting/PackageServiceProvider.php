@@ -32,7 +32,7 @@ class PackageServiceProvider extends ServiceProvider
 
         $this->routes(function(Router $router){
             $router->get('/', function(){
-                
+
             });
         });
     }

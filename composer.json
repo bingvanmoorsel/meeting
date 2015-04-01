@@ -1,5 +1,6 @@
 {
     "name": "bingvanmoorsel/meeting",
+    "type": "victory-package",
     "description": "",
     "authors": [
         {
@@ -9,12 +10,13 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.0.*"
+        "illuminate/support": "5.0.*",
+        "victory-cms/core": "dev-master"
     },
     "autoload": {
         "psr-0": {
             "Bingvanmoorsel\\Meeting": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
